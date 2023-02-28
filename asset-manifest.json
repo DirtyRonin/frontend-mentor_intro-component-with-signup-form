@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/frontend-mentor_intro-component-with-signup-form/static/css/main.fee6c6e5.css",
+    "main.js": "/frontend-mentor_intro-component-with-signup-form/static/js/main.8e7d867f.js",
+    "static/js/787.57d60160.chunk.js": "/frontend-mentor_intro-component-with-signup-form/static/js/787.57d60160.chunk.js",
+    "static/media/bg-intro-desktop.png": "/frontend-mentor_intro-component-with-signup-form/static/media/bg-intro-desktop.059183eea52640c5068d.png",
+    "index.html": "/frontend-mentor_intro-component-with-signup-form/index.html",
+    "static/media/icon-error.svg": "/frontend-mentor_intro-component-with-signup-form/static/media/icon-error.b72f792e9c900128f5c88f10a0d8d4b7.svg",
+    "main.fee6c6e5.css.map": "/frontend-mentor_intro-component-with-signup-form/static/css/main.fee6c6e5.css.map",
+    "main.8e7d867f.js.map": "/frontend-mentor_intro-component-with-signup-form/static/js/main.8e7d867f.js.map",
+    "787.57d60160.chunk.js.map": "/frontend-mentor_intro-component-with-signup-form/static/js/787.57d60160.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fee6c6e5.css",
+    "static/js/main.8e7d867f.js"
+  ]
+}
