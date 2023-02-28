@@ -1,5 +1,6 @@
 .register {
   min-height: 40rem;
+  padding: 2rem;
   display: grid;
   /* grid-template-rows: 6rem 30rem; */
   grid-template-rows: 6rem auto;
@@ -10,7 +11,6 @@
 .intro-text {
   /* row 2 column 1 */
   grid-area: 2/1;
-  padding: 2rem;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
