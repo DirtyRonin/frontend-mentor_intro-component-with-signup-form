@@ -8,6 +8,16 @@
   grid-gap: 0.35rem;
 }
 
+@media (width < 900px) {
+  .register {
+    min-height: unset;
+    padding-top: 4.5rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: unset;
+    width: 340px;
+  }
+}
+
 .intro-text {
   /* row 2 column 1 */
   grid-area: 2/1;
@@ -17,20 +27,50 @@
   color: white;
 }
 
+@media (width < 900px) {
+  .intro-text {
+    grid-area: unset;
+  }
+}
+
 .intro-text h1 {
   font-size: 3rem;
   font-weight: 600;
   line-height: 3rem;
 }
 
+@media (width < 900px) {
+  .intro-text h1 {
+    font-size: 1.7rem;
+    text-align: center;
+    line-height: 2.3rem;
+  }
+}
 .intro-text p {
+}
+
+@media (width < 900px) {
+  .intro-text p {
+    margin: 0;
+    font-size: 1.05rem;
+    text-align: center;
+    line-height: 1.7rem;
+  }
 }
 
 .emphasize-offer {
   grid-column: 2;
-  display: grid;
+  display: block;
   align-items: center;
 }
+
+@media (width < 900px) {
+  .emphasize-offer {
+    grid-area: unset;
+    padding-top: 2.5rem;
+  }
+}
+
 .emphasize-offer p {
   padding: 1.13rem 0;
   background-color: var(--blue);
@@ -41,6 +81,21 @@
   border-radius: var(--border-radius);
   font-weight: 300;
   box-shadow: 0 7px 3px hsla(0, 50%, 0%, 0.2);
+}
+
+@media (width < 900px) {
+  .emphasize-offer p {
+    padding: 1rem 4
+    kl,,,,,,,,,,,,,,,,,...............................
+    rem;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 0.99rem;
+    border-radius: var(--border-radius);
+    font-weight: 300;
+    box-shadow: 0 7px 3px hsla(0, 50%, 0%, 0.2);
+  }
 }
 
 .emphasize-offer p span {
