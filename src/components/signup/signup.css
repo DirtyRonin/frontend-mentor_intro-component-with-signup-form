@@ -1,0 +1,49 @@
+.signup-component {
+  display: grid;
+  grid-gap: 0.53rem;
+  /* grid-auto-rows: 3.78rem; */
+  grid-template-rows: repeat(4, 4.25rem) 3.5rem 2rem;
+  background-color: white;
+  border-radius: var(--border-radius);
+}
+
+.show-error-message {
+  grid-gap: 2rem;
+}
+
+.signup-component input[type='button'] {
+  display: inline-block;
+  width: 100%;
+  padding: 0.9rem 1rem;
+  font-weight: 400;
+  color: white;
+  background-color: var(--green);
+  border: var(--green) 1px solid;
+  border-radius: 0.2rem;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+  box-shadow: 0px 4px hsla(154, 65%, 34%, 0.7);
+}
+
+.signup-component input[type='button']:hover {
+  cursor: pointer;
+}
+
+.signup-component input[type='button']:active {
+  background-color: hsla(154, 59%, 51%, 0.8);
+}
+
+.signup-disclaimer {
+  font-size: 0.8rem;
+  text-align: center;
+  color: var(--grayish-blue);
+}
+
+.signup-disclaimer a {
+  color: var(--red);
+  font-weight: 600;
+  text-decoration: none;
+}

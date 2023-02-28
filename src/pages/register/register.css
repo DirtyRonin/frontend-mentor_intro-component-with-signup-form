@@ -1,0 +1,58 @@
+.register {
+  min-height: 40rem;
+  display: grid;
+  /* grid-template-rows: 6rem 30rem; */
+  grid-template-rows: 6rem auto;
+  grid-template-columns: repeat(2, minmax(400px, 550px));
+  grid-gap: 0.35rem;
+}
+
+.intro-text {
+  /* row 2 column 1 */
+  grid-area: 2/1;
+  padding: 2rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  color: white;
+}
+
+.intro-text h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
+
+.intro-text p {
+}
+
+.emphasize-offer {
+  grid-column: 2;
+  display: grid;
+  align-items: center;
+}
+.emphasize-offer p {
+  padding: 1.13rem 0;
+  background-color: var(--blue);
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 0.99rem;
+  border-radius: var(--border-radius);
+  font-weight: 300;
+  box-shadow: 0 7px 3px hsla(0, 50%, 0%, 0.2);
+}
+
+.emphasize-offer p span {
+  font-weight: 500;
+}
+
+.signup-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: 0 7px 3px hsla(0, 50%, 0%, 0.2);
+}

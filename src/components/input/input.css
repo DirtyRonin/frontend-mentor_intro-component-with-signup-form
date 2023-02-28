@@ -1,0 +1,71 @@
+.input-component {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.input-component input[type='text'],
+.input-component input[type='email'],
+.input-component input[type='password'] {
+  font-family: 'Poppins', sans-serif;
+  width: calc(100% - 4rem);
+  height: 3.4rem;
+  height: 80%;
+
+  display: inline-block;
+  color: var(--dark-blue);
+  font-weight: 600;
+  border-radius: 0.2rem;
+  border: 1px solid var(--grayish-blue);
+  /* padding: 1rem 1.18rem; */
+  padding: 0 2rem;
+}
+
+.input-component input[type='text'].red,
+.input-component input[type='email'].red,
+.input-component input[type='password'].red {
+  border: 1px solid var(--red);
+}
+
+.input-component input[type='text'].red::placeholder,
+.input-component input[type='email'].red::placeholder,
+.input-component input[type='password'].red::placeholder {
+  color: var(--red);
+}
+
+.input-component input[type='text']:focus,
+.input-component input[type='email']:focus,
+.input-component input[type='password']:focus {
+  outline: var(--grayish-blue) solid 0.05rem;
+  color: black;
+  font-weight: 600;
+}
+
+.input-component input[type='text'].red:focus,
+.input-component input[type='email'].red:focus,
+.input-component input[type='password'].red:focus {
+  outline: var(--red) solid 0.05rem;
+}
+
+.input-component .icon-error {
+  position: absolute;
+  right: 2rem;
+  height: 1.7rem;
+}
+
+.error-message {
+  visibility: hidden;
+  font-size: 0.7rem;
+  color: var(--red);
+  text-align: right;
+  font-style: italic;
+  margin: 0;
+}
+
+.show-error {
+  visibility: visible;
+}
